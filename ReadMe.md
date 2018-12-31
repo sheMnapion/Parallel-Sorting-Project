@@ -4,11 +4,11 @@ Author：李奡程 Time：2018-12-30 Email：161220062@smail.nju.edu.cn
 这是关于我的并行计算项目的相关文件的说明文档。其实现了归并排序、快速排序和枚举排序的串行和并行版本以及相应的性能分析。
 
 
-1. 文件夹结构综述
+# 1. 文件夹结构综述
     文件夹下包括原始数据random.txt，说明文档ReadMe.txt，实验报告report.pdf，相关的输出文件order*.txt，代码运行结果截图文件夹images/，实验报告Latex源码文件夹ReportTex/和源代码文件夹parallelComputingProject/。
 
 
-2. 代码运行&基本描述
+# 2. 代码运行&基本描述
     本项目用c#语言编写，运行环境为win10和Visual Studio 2013。如果支持上述环境，则用VS中打开项目文件parallelComputingProject.sln，在IDE中选择调试->开始执行即可运行。其中相关的代码位于parallelComputingProject/parallelComputingProject文件夹下。
 
 2.1 主函数
@@ -53,6 +53,6 @@ Author：李奡程 Time：2018-12-30 Email：161220062@smail.nju.edu.cn
     位于DataFiles文件夹下。此项目的输出结果文件即从DataFiles下直接拷贝过去的。
 
 
-3. 其他
+# 3. 其他
     parallelComputingProject/parallelComputingProject/bin/Debug/paralelComputingProject.exe为目前的可执行文件，可通过运行之进行数据记录、在该数据集上的性能分析以及在给定数据集规模下的性能分析。
     如果有其他运行方面的问题，请通过电子邮箱联系。
