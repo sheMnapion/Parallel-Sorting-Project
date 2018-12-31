@@ -1,0 +1,6 @@
+E:\workspace\并行计算\parallelComputingProject\parallelComputingProject\bin\Debug\parallelComputingProject.exe.config
+E:\workspace\并行计算\parallelComputingProject\parallelComputingProject\bin\Debug\parallelComputingProject.exe
+E:\workspace\并行计算\parallelComputingProject\parallelComputingProject\bin\Debug\parallelComputingProject.pdb
+E:\workspace\并行计算\parallelComputingProject\parallelComputingProject\obj\Debug\parallelComputingProject.csprojResolveAssemblyReference.cache
+E:\workspace\并行计算\parallelComputingProject\parallelComputingProject\obj\Debug\parallelComputingProject.exe
+E:\workspace\并行计算\parallelComputingProject\parallelComputingProject\obj\Debug\parallelComputingProject.pdb
