@@ -1,58 +1,58 @@
-Author£ºÀîŠS³Ì Time£º2018-12-30 Email£º161220062@smail.nju.edu.cn
+Authorï¼šæå¥¡ç¨‹ Timeï¼š2018-12-30 Emailï¼š161220062@smail.nju.edu.cn
 
 
-ÕâÊÇ¹ØÓÚÎÒµÄ²¢ĞĞ¼ÆËãÏîÄ¿µÄÏà¹ØÎÄ¼şµÄËµÃ÷ÎÄµµ¡£ÆäÊµÏÖÁË¹é²¢ÅÅĞò¡¢¿ìËÙÅÅĞòºÍÃ¶¾ÙÅÅĞòµÄ´®ĞĞºÍ²¢ĞĞ°æ±¾ÒÔ¼°ÏàÓ¦µÄĞÔÄÜ·ÖÎö¡£
+è¿™æ˜¯å…³äºæˆ‘çš„å¹¶è¡Œè®¡ç®—é¡¹ç›®çš„ç›¸å…³æ–‡ä»¶çš„è¯´æ˜æ–‡æ¡£ã€‚å…¶å®ç°äº†å½’å¹¶æ’åºã€å¿«é€Ÿæ’åºå’Œæšä¸¾æ’åºçš„ä¸²è¡Œå’Œå¹¶è¡Œç‰ˆæœ¬ä»¥åŠç›¸åº”çš„æ€§èƒ½åˆ†æã€‚
 
 
-1. ÎÄ¼ş¼Ğ½á¹¹×ÛÊö
-    ÎÄ¼ş¼ĞÏÂ°üÀ¨Ô­Ê¼Êı¾İrandom.txt£¬ËµÃ÷ÎÄµµReadMe.txt£¬ÊµÑé±¨¸æreport.pdf£¬Ïà¹ØµÄÊä³öÎÄ¼şorder*.txt£¬´úÂëÔËĞĞ½á¹û½ØÍ¼ÎÄ¼ş¼Ğimages/£¬ÊµÑé±¨¸æLatexÔ´ÂëÎÄ¼ş¼ĞReportTex/ºÍÔ´´úÂëÎÄ¼ş¼ĞparallelComputingProject/¡£
+# 1. æ–‡ä»¶å¤¹ç»“æ„ç»¼è¿°
+    æ–‡ä»¶å¤¹ä¸‹åŒ…æ‹¬åŸå§‹æ•°æ®random.txtï¼Œè¯´æ˜æ–‡æ¡£ReadMe.txtï¼Œå®éªŒæŠ¥å‘Šreport.pdfï¼Œç›¸å…³çš„è¾“å‡ºæ–‡ä»¶order*.txtï¼Œä»£ç è¿è¡Œç»“æœæˆªå›¾æ–‡ä»¶å¤¹images/ï¼Œå®éªŒæŠ¥å‘ŠLatexæºç æ–‡ä»¶å¤¹ReportTex/å’Œæºä»£ç æ–‡ä»¶å¤¹parallelComputingProject/ã€‚
 
 
-2. ´úÂëÔËĞĞ&»ù±¾ÃèÊö
-    ±¾ÏîÄ¿ÓÃc#ÓïÑÔ±àĞ´£¬ÔËĞĞ»·¾³Îªwin10ºÍVisual Studio 2013¡£Èç¹ûÖ§³ÖÉÏÊö»·¾³£¬ÔòÓÃVSÖĞ´ò¿ªÏîÄ¿ÎÄ¼şparallelComputingProject.sln£¬ÔÚIDEÖĞÑ¡Ôñµ÷ÊÔ->¿ªÊ¼Ö´ĞĞ¼´¿ÉÔËĞĞ¡£ÆäÖĞÏà¹ØµÄ´úÂëÎ»ÓÚparallelComputingProject/parallelComputingProjectÎÄ¼ş¼ĞÏÂ¡£
+# 2. ä»£ç è¿è¡Œ&åŸºæœ¬æè¿°
+    æœ¬é¡¹ç›®ç”¨c#è¯­è¨€ç¼–å†™ï¼Œè¿è¡Œç¯å¢ƒä¸ºwin10å’ŒVisual Studio 2013ã€‚å¦‚æœæ”¯æŒä¸Šè¿°ç¯å¢ƒï¼Œåˆ™ç”¨VSä¸­æ‰“å¼€é¡¹ç›®æ–‡ä»¶parallelComputingProject.slnï¼Œåœ¨IDEä¸­é€‰æ‹©è°ƒè¯•->å¼€å§‹æ‰§è¡Œå³å¯è¿è¡Œã€‚å…¶ä¸­ç›¸å…³çš„ä»£ç ä½äºparallelComputingProject/parallelComputingProjectæ–‡ä»¶å¤¹ä¸‹ã€‚
 
-2.1 Ö÷º¯Êı
-    ¸ÃÎÄ¼ş¼ĞÏÂµÄProgram.csÎª³ÌĞòÈë¿Ú£¬¿ÉÔÚÆäÖĞ¸Ä¶¯mainº¯ÊıµÄÄÚÈİ½øĞĞ²»Í¬µÄÔËËã£¬ÆäÖĞÓĞÈı¸öº¯Êı£º
-    (1) WriteData() : ¶ÁÈërandom.txtÖĞµÄÊı¾İ£¬ÓÃ6ÖÖ²»Í¬µÄÅÅĞò·½·¨·Ö±ğÅÅĞò£¬²¢½«½á¹ûÊä³öÖÁDataFilesÏÂµÄorder*.txtÎÄ¼şÖĞ¡£
-    (2) AnalyzePerformance() : ¶ÁÈërandom.txtÖĞµÄÊı¾İ£¬ÓÃ6ÖĞ²»Í¬µÄÅÅĞò·½·¨·Ö±ğÅÅĞò£¬²¢Í³¼ÆÆäÔÚ¸ÃÊı¾İ¼¯ÉÏÈô¸É´ÎºóµÄÆ½¾ùÊ±³¤£¨´ÎÊı¿ÉÍ¨¹ıĞŞ¸ÄÏàÓ¦´úÂëµ÷Õû£»ÒòÎª£©¡£
-    (3) SizeAnalyzePerformance(int testScale=100000,int testRound=10) : ²âÊÔ´®ĞĞºÍ²¢ĞĞµÄ¿ìÅÅºÍ¹é²¢ÅÅĞòÔÚ¸ø¶¨Êı¾İ¼¯´óĞ¡µÄÇé¿öÏÂÈô¸É´ÎµÄÆ½¾ùÊ±³¤¡£
+2.1 ä¸»å‡½æ•°
+    è¯¥æ–‡ä»¶å¤¹ä¸‹çš„Program.csä¸ºç¨‹åºå…¥å£ï¼Œå¯åœ¨å…¶ä¸­æ”¹åŠ¨mainå‡½æ•°çš„å†…å®¹è¿›è¡Œä¸åŒçš„è¿ç®—ï¼Œå…¶ä¸­æœ‰ä¸‰ä¸ªå‡½æ•°ï¼š
+    (1) WriteData() : è¯»å…¥random.txtä¸­çš„æ•°æ®ï¼Œç”¨6ç§ä¸åŒçš„æ’åºæ–¹æ³•åˆ†åˆ«æ’åºï¼Œå¹¶å°†ç»“æœè¾“å‡ºè‡³DataFilesä¸‹çš„order*.txtæ–‡ä»¶ä¸­ã€‚
+    (2) AnalyzePerformance() : è¯»å…¥random.txtä¸­çš„æ•°æ®ï¼Œç”¨6ä¸­ä¸åŒçš„æ’åºæ–¹æ³•åˆ†åˆ«æ’åºï¼Œå¹¶ç»Ÿè®¡å…¶åœ¨è¯¥æ•°æ®é›†ä¸Šè‹¥å¹²æ¬¡åçš„å¹³å‡æ—¶é•¿ï¼ˆæ¬¡æ•°å¯é€šè¿‡ä¿®æ”¹ç›¸åº”ä»£ç è°ƒæ•´ï¼›å› ä¸ºï¼‰ã€‚
+    (3) SizeAnalyzePerformance(int testScale=100000,int testRound=10) : æµ‹è¯•ä¸²è¡Œå’Œå¹¶è¡Œçš„å¿«æ’å’Œå½’å¹¶æ’åºåœ¨ç»™å®šæ•°æ®é›†å¤§å°çš„æƒ…å†µä¸‹è‹¥å¹²æ¬¡çš„å¹³å‡æ—¶é•¿ã€‚
 
-2.2 »ùÀà¼°Æä¸¨Öú¹¦ÄÜ
-   UtilitiesÎÄ¼ş¼ĞÏÂ°üÀ¨SerialSortBase.csºÍUtilities.csÁ½¸öÀàÎÄ¼ş£¬ÊµÏÖÏàÓ¦³£ÓÃµÄ¿âº¯Êı¡¢»ù±¾µÄÅÅĞò·½·¨ÒÔ¼°ĞÔÄÜ·ÖÎö¹¦ÄÜ¡£
-   Utilities.cs°üÀ¨Swap½Ó¿Ú£¨ÓÃÓÚ½»»»Á½¸öÊı¾İ£¬ÓÃÓÚ¿ìÅÅ£©£¬checkSum½Ó¿Ú£¨ÓÃÓÚ¼ìÑéÊı×éÖĞµÄÒ»²¿·ÖÊı¾İºÍÊÇ·ñÕıÈ·£©ºÍassert½Ó¿Ú£¨Debug.AssertµÍÅä£¬½ö¼ì²éÏàÓ¦Ìõ¼şÕıÈ·£©¡£
-   SerialSortBase.csÎªËùÓĞÅÅĞòÀàµÄ»ùÀà£¬ÒÔÏÂÏêÏ¸ÃèÊöÆä¹¦ÄÜ¡£
-2.2.1 »ù±¾³ÉÔ±
-    protected int[] _data ´æ·ÅÒªÅÅĞòµÄÊı¾İ¡£
-    protected int[] _shared ×÷ÎªÅÅĞòÊı¾İµÄ±¸ÓÃÄÚ´æ¡£ÓÉÓÚ¹é²¢ÅÅĞòÔÚ¹é²¢²½ÖèÖĞĞèÒª¶îÍâµÄ¿Õ¼ä´æ·ÅÔªËØ£¬ËùÒÔÊ¹ÓÃÒ»¸öÓëÔ­Êı¾İµÇ³¡µÄÊı×éÀ´µ±ÖĞ¼ä¿Õ¼ä£¬±ÜÃâÖØ¸´ÉêÇëÊÍ·Å¿Õ¼äÔì³ÉµÄĞÔÄÜËğÊ§¡£
-    protected Random _r ÅÅĞòÓÃµ½µÄËæ»úÊı·¢ÉúÆ÷£¬ÓÃÀ´¶Ô¿ìÅÅ½øĞĞËæ»ú»¯¡£
-    protected int _length ¼ÇÂ¼ÅÅĞòÊı¾İµÄ³¤¶È¡£
-    protected const int _insertionSortThreshold = 12  ¿ìÅÅÓÅ»¯ÖĞÊ¹ÓÃµÄ³£Êı¡£
-    protected delegate double Sorter(int left,int right) ÓÃÓÚ¼ÆÊ±·ÖÎöĞÔÄÜµÄÎ¯ÍĞº¯Êı£¨º¯ÊıÖ¸Õë£©
-    protected Sorter _sorter ¸ÃÎ¯ÍĞµÄÊµÀı»¯
-2.2.2 ¹¦ÄÜº¯Êı
-    ¹¹Ôìº¯Êı£ºĞèÒªÃ÷È·¸ø³ödata£¬ÓÃ¸ÃÊı¾İ×÷Îª½«ÒªÅÅĞòµÄÊı¾İ¡£
-    int _partition(int left,int right) : ¿ìÅÅÖĞÓÃµ½µÄ·Ö¸îº¯Êı£¬½«Ò»¶ÎÊı¾İ·ÖÎªÁ½¶Î£¬Ò»¶Î±ÈpivotĞ¡£¬Ò»¶Î±Èpivot´ó£¬·µ»ØpivotËùÔÚÎ»ÖÃ¡£
-    void _quickSort(int left,int right) : ¿ìÅÅ¡£
-    int _randomizedPartition(int left,int right) : Ëæ»ú»®·Ö£¬_partitionµÄËæ»ú»¯°æ±¾¡£
-    void _randomizedQuicksort(int left,int right) : Ëæ»ú¿ìÅÅ¡£
-    void _improvedQuicksort(int left,int right,bool randomized=true) : ¸öÈËÊµÏÖµÄ¶Ô¿ìÅÅµÄ¸Ä½ø¡£
-    bool _inOrder(int left,int right, bool _increase=true) : ¼ì²é_dataÊÇ·ñÒÑÕıĞò£¨»òÄæĞò£©ÅÅºÃ¡£
-    void _insertionSort(int left,int right) : ²åÈëÅÅĞò£¬¸Ä½ø¿ìÅÅÓÃµ½µÄ×Óº¯Êı¡£
-    void _mergeSort(int left,int right) : ¹é²¢ÅÅĞò¡£
-    void _sizePerformanceAnalyzer(int testScale=30000,int testRound=100,bool checkOrder=true): ĞÔÄÜ·ÖÎö¹¤¾ßÖ®Ò»£¬¶ÔÅÅĞò·½·¨ÔÚ¸ø¶¨Êı¾İ¹æÄ££¨testScale£©ÏÂ½øĞĞtestRound»ØºÏºóµÄÆ½¾ùºÄÊ±½øĞĞ·ÖÎö²¢Êä³ö½á¹ûµ½ÃüÁîĞĞ¡£ÈôcheckOrderÎªtrue£¬ÔòÅÅĞòºó»¹½øĞĞÅÅĞò½á¹ûÕıÈ·ĞÔµÄ¼ì²é¡£
-    void _performanceAnalyzer(int testRound=100,bool checkOrder=true) £ºĞÔÄÜ·ÖÎö¹¤¾ßÖ®Ò»£¬¶ÔÅÅĞò·½·¨ÔÚ¸ø¶¨Êı¾İ¼¯(_data)ÏÂ½øĞĞtestRound»ØºÏºóµÄÆ½¾ùºÄÊ±½øĞĞ·ÖÎö²¢Êä³ö½á¹ûµ½ÃüÁîĞĞ¡£ÈôcheckOrderÎªtrue£¬ÔòÔÚÃ¿»ØºÏÅÅĞòºó»¹½øĞĞÅÅĞò½á¹ûÕıÈ·ĞÔµÄ¼ì²é¡£
-    void _sortAndRecord(string fileName) : ½øĞĞÅÅĞò²¢½«½á¹ûÊä³öµ½Ö¸¶¨ÎÄ¼şÖĞ¡£
+2.2 åŸºç±»åŠå…¶è¾…åŠ©åŠŸèƒ½
+   Utilitiesæ–‡ä»¶å¤¹ä¸‹åŒ…æ‹¬SerialSortBase.cså’ŒUtilities.csä¸¤ä¸ªç±»æ–‡ä»¶ï¼Œå®ç°ç›¸åº”å¸¸ç”¨çš„åº“å‡½æ•°ã€åŸºæœ¬çš„æ’åºæ–¹æ³•ä»¥åŠæ€§èƒ½åˆ†æåŠŸèƒ½ã€‚
+   Utilities.csåŒ…æ‹¬Swapæ¥å£ï¼ˆç”¨äºäº¤æ¢ä¸¤ä¸ªæ•°æ®ï¼Œç”¨äºå¿«æ’ï¼‰ï¼ŒcheckSumæ¥å£ï¼ˆç”¨äºæ£€éªŒæ•°ç»„ä¸­çš„ä¸€éƒ¨åˆ†æ•°æ®å’Œæ˜¯å¦æ­£ç¡®ï¼‰å’Œassertæ¥å£ï¼ˆDebug.Assertä½é…ï¼Œä»…æ£€æŸ¥ç›¸åº”æ¡ä»¶æ­£ç¡®ï¼‰ã€‚
+   SerialSortBase.csä¸ºæ‰€æœ‰æ’åºç±»çš„åŸºç±»ï¼Œä»¥ä¸‹è¯¦ç»†æè¿°å…¶åŠŸèƒ½ã€‚
+2.2.1 åŸºæœ¬æˆå‘˜
+    protected int[] _data å­˜æ”¾è¦æ’åºçš„æ•°æ®ã€‚
+    protected int[] _shared ä½œä¸ºæ’åºæ•°æ®çš„å¤‡ç”¨å†…å­˜ã€‚ç”±äºå½’å¹¶æ’åºåœ¨å½’å¹¶æ­¥éª¤ä¸­éœ€è¦é¢å¤–çš„ç©ºé—´å­˜æ”¾å…ƒç´ ï¼Œæ‰€ä»¥ä½¿ç”¨ä¸€ä¸ªä¸åŸæ•°æ®ç™»åœºçš„æ•°ç»„æ¥å½“ä¸­é—´ç©ºé—´ï¼Œé¿å…é‡å¤ç”³è¯·é‡Šæ”¾ç©ºé—´é€ æˆçš„æ€§èƒ½æŸå¤±ã€‚
+    protected Random _r æ’åºç”¨åˆ°çš„éšæœºæ•°å‘ç”Ÿå™¨ï¼Œç”¨æ¥å¯¹å¿«æ’è¿›è¡ŒéšæœºåŒ–ã€‚
+    protected int _length è®°å½•æ’åºæ•°æ®çš„é•¿åº¦ã€‚
+    protected const int _insertionSortThreshold = 12  å¿«æ’ä¼˜åŒ–ä¸­ä½¿ç”¨çš„å¸¸æ•°ã€‚
+    protected delegate double Sorter(int left,int right) ç”¨äºè®¡æ—¶åˆ†ææ€§èƒ½çš„å§”æ‰˜å‡½æ•°ï¼ˆå‡½æ•°æŒ‡é’ˆï¼‰
+    protected Sorter _sorter è¯¥å§”æ‰˜çš„å®ä¾‹åŒ–
+2.2.2 åŠŸèƒ½å‡½æ•°
+    æ„é€ å‡½æ•°ï¼šéœ€è¦æ˜ç¡®ç»™å‡ºdataï¼Œç”¨è¯¥æ•°æ®ä½œä¸ºå°†è¦æ’åºçš„æ•°æ®ã€‚
+    int _partition(int left,int right) : å¿«æ’ä¸­ç”¨åˆ°çš„åˆ†å‰²å‡½æ•°ï¼Œå°†ä¸€æ®µæ•°æ®åˆ†ä¸ºä¸¤æ®µï¼Œä¸€æ®µæ¯”pivotå°ï¼Œä¸€æ®µæ¯”pivotå¤§ï¼Œè¿”å›pivotæ‰€åœ¨ä½ç½®ã€‚
+    void _quickSort(int left,int right) : å¿«æ’ã€‚
+    int _randomizedPartition(int left,int right) : éšæœºåˆ’åˆ†ï¼Œ_partitionçš„éšæœºåŒ–ç‰ˆæœ¬ã€‚
+    void _randomizedQuicksort(int left,int right) : éšæœºå¿«æ’ã€‚
+    void _improvedQuicksort(int left,int right,bool randomized=true) : ä¸ªäººå®ç°çš„å¯¹å¿«æ’çš„æ”¹è¿›ã€‚
+    bool _inOrder(int left,int right, bool _increase=true) : æ£€æŸ¥_dataæ˜¯å¦å·²æ­£åºï¼ˆæˆ–é€†åºï¼‰æ’å¥½ã€‚
+    void _insertionSort(int left,int right) : æ’å…¥æ’åºï¼Œæ”¹è¿›å¿«æ’ç”¨åˆ°çš„å­å‡½æ•°ã€‚
+    void _mergeSort(int left,int right) : å½’å¹¶æ’åºã€‚
+    void _sizePerformanceAnalyzer(int testScale=30000,int testRound=100,bool checkOrder=true): æ€§èƒ½åˆ†æå·¥å…·ä¹‹ä¸€ï¼Œå¯¹æ’åºæ–¹æ³•åœ¨ç»™å®šæ•°æ®è§„æ¨¡ï¼ˆtestScaleï¼‰ä¸‹è¿›è¡ŒtestRoundå›åˆåçš„å¹³å‡è€—æ—¶è¿›è¡Œåˆ†æå¹¶è¾“å‡ºç»“æœåˆ°å‘½ä»¤è¡Œã€‚è‹¥checkOrderä¸ºtrueï¼Œåˆ™æ’åºåè¿˜è¿›è¡Œæ’åºç»“æœæ­£ç¡®æ€§çš„æ£€æŸ¥ã€‚
+    void _performanceAnalyzer(int testRound=100,bool checkOrder=true) ï¼šæ€§èƒ½åˆ†æå·¥å…·ä¹‹ä¸€ï¼Œå¯¹æ’åºæ–¹æ³•åœ¨ç»™å®šæ•°æ®é›†(_data)ä¸‹è¿›è¡ŒtestRoundå›åˆåçš„å¹³å‡è€—æ—¶è¿›è¡Œåˆ†æå¹¶è¾“å‡ºç»“æœåˆ°å‘½ä»¤è¡Œã€‚è‹¥checkOrderä¸ºtrueï¼Œåˆ™åœ¨æ¯å›åˆæ’åºåè¿˜è¿›è¡Œæ’åºç»“æœæ­£ç¡®æ€§çš„æ£€æŸ¥ã€‚
+    void _sortAndRecord(string fileName) : è¿›è¡Œæ’åºå¹¶å°†ç»“æœè¾“å‡ºåˆ°æŒ‡å®šæ–‡ä»¶ä¸­ã€‚
 
-2.3 ´®ĞĞÅÅĞò
-    ´®ĞĞÅÅĞòÊµÏÖ´úÂëÎÄ¼şÎ»ÓÚÎÄ¼ş¼ĞSerialSortMethodsÏÂ£¬ÆäÖĞ°üÀ¨ËÄ¸öÀàÎÄ¼şLibrarySort.cs£¬SerialEnumerationSort.cs£¬SerialMergesort.cs£¬SerialQuicksort.cs£¬¶¼¼Ì³Ğ×Ô»ùÀàSerialSortBase¡£LibrarySortÎª±ê×¼¿âÊµÏÖ£¨Array.Sort£©£¬ÆäËû·Ö±ğÎª´®ĞĞÃ¶¾ÙÅÅĞò¡¢´®ĞĞ¹é²¢ÅÅĞòºÍ´®ĞĞ¿ìÅÅ¡£Æä¶¼Ö§³ÖÍ³Ò»½Ó¿ÚsortMethodName(bool record=false, string fileName='...')£¨ÓÃÓÚ¼ÇÂ¼ÅÅĞò½á¹û£©£¬PerformanceAnalyzer£¨¸ø¶¨Êı¾İ¼¯ÉÏµÄĞÔÄÜ£©ºÍSizePerformanceAnalyzer£¨¸ø¶¨Êı¾İ¹æÄ£Ê±µÄĞÔÄÜ£©¡£
+2.3 ä¸²è¡Œæ’åº
+    ä¸²è¡Œæ’åºå®ç°ä»£ç æ–‡ä»¶ä½äºæ–‡ä»¶å¤¹SerialSortMethodsä¸‹ï¼Œå…¶ä¸­åŒ…æ‹¬å››ä¸ªç±»æ–‡ä»¶LibrarySort.csï¼ŒSerialEnumerationSort.csï¼ŒSerialMergesort.csï¼ŒSerialQuicksort.csï¼Œéƒ½ç»§æ‰¿è‡ªåŸºç±»SerialSortBaseã€‚LibrarySortä¸ºæ ‡å‡†åº“å®ç°ï¼ˆArray.Sortï¼‰ï¼Œå…¶ä»–åˆ†åˆ«ä¸ºä¸²è¡Œæšä¸¾æ’åºã€ä¸²è¡Œå½’å¹¶æ’åºå’Œä¸²è¡Œå¿«æ’ã€‚å…¶éƒ½æ”¯æŒç»Ÿä¸€æ¥å£sortMethodName(bool record=false, string fileName='...')ï¼ˆç”¨äºè®°å½•æ’åºç»“æœï¼‰ï¼ŒPerformanceAnalyzerï¼ˆç»™å®šæ•°æ®é›†ä¸Šçš„æ€§èƒ½ï¼‰å’ŒSizePerformanceAnalyzerï¼ˆç»™å®šæ•°æ®è§„æ¨¡æ—¶çš„æ€§èƒ½ï¼‰ã€‚
 
-2.4 ²¢ĞĞÅÅĞò
-    ²¢ĞĞÅÅĞòÊµÏÖ´úÂëÎÄ¼şÎ»ÓÚÎÄ¼ş¼ĞParallelSortMethodsÏÂ£¬ÆäÖĞ°üÀ¨ËÄ¸öÀàÎÄ¼şParallelEnumerationSort.cs£¬ParallelMergesort.csºÍParalellQuicksort.cs£¬¶¼¼Ì³Ğ×Ô»ùÀàSerialSortBase¡£ÆäÖ§³ÖºÍÉÏÊö´®ĞĞÅÅĞòÀàËÆµÄ½Ó¿Ú¡£¾ßÌåÊ¹ÓÃÊµÀı¿É²ÎÕÕProgram.csÖĞµÄÈı¸öº¯Êı¡£
+2.4 å¹¶è¡Œæ’åº
+    å¹¶è¡Œæ’åºå®ç°ä»£ç æ–‡ä»¶ä½äºæ–‡ä»¶å¤¹ParallelSortMethodsä¸‹ï¼Œå…¶ä¸­åŒ…æ‹¬å››ä¸ªç±»æ–‡ä»¶ParallelEnumerationSort.csï¼ŒParallelMergesort.cså’ŒParalellQuicksort.csï¼Œéƒ½ç»§æ‰¿è‡ªåŸºç±»SerialSortBaseã€‚å…¶æ”¯æŒå’Œä¸Šè¿°ä¸²è¡Œæ’åºç±»ä¼¼çš„æ¥å£ã€‚å…·ä½“ä½¿ç”¨å®ä¾‹å¯å‚ç…§Program.csä¸­çš„ä¸‰ä¸ªå‡½æ•°ã€‚
 
-2.5 Êı¾İÎÄ¼ş
-    Î»ÓÚDataFilesÎÄ¼ş¼ĞÏÂ¡£´ËÏîÄ¿µÄÊä³ö½á¹ûÎÄ¼ş¼´´ÓDataFilesÏÂÖ±½Ó¿½±´¹ıÈ¥µÄ¡£
+2.5 æ•°æ®æ–‡ä»¶
+    ä½äºDataFilesæ–‡ä»¶å¤¹ä¸‹ã€‚æ­¤é¡¹ç›®çš„è¾“å‡ºç»“æœæ–‡ä»¶å³ä»DataFilesä¸‹ç›´æ¥æ‹·è´è¿‡å»çš„ã€‚
 
 
-3. ÆäËû
-    parallelComputingProject/parallelComputingProject/bin/Debug/paralelComputingProject.exeÎªÄ¿Ç°µÄ¿ÉÖ´ĞĞÎÄ¼ş£¬¿ÉÍ¨¹ıÔËĞĞÖ®½øĞĞÊı¾İ¼ÇÂ¼¡¢ÔÚ¸ÃÊı¾İ¼¯ÉÏµÄĞÔÄÜ·ÖÎöÒÔ¼°ÔÚ¸ø¶¨Êı¾İ¼¯¹æÄ£ÏÂµÄĞÔÄÜ·ÖÎö¡£
-    Èç¹ûÓĞÆäËûÔËĞĞ·½ÃæµÄÎÊÌâ£¬ÇëÍ¨¹ıµç×ÓÓÊÏäÁªÏµ¡£
+# 3. å…¶ä»–
+    parallelComputingProject/parallelComputingProject/bin/Debug/paralelComputingProject.exeä¸ºç›®å‰çš„å¯æ‰§è¡Œæ–‡ä»¶ï¼Œå¯é€šè¿‡è¿è¡Œä¹‹è¿›è¡Œæ•°æ®è®°å½•ã€åœ¨è¯¥æ•°æ®é›†ä¸Šçš„æ€§èƒ½åˆ†æä»¥åŠåœ¨ç»™å®šæ•°æ®é›†è§„æ¨¡ä¸‹çš„æ€§èƒ½åˆ†æã€‚
+    å¦‚æœæœ‰å…¶ä»–è¿è¡Œæ–¹é¢çš„é—®é¢˜ï¼Œè¯·é€šè¿‡ç”µå­é‚®ç®±è”ç³»ã€‚
